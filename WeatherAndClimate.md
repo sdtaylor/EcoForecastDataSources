@@ -35,4 +35,12 @@ Hosts many different forecast datasets with global coverage from several days to
 The [Coupled model intercomparison project](https://en.wikipedia.org/wiki/Coupled_model_intercomparison_project) is a suite of datasets derived from agencies all over the world. Simply put, they each run their respective climate models according to emission scenarios defined in IPCC reports. These are the input to the future conditions available in the WorldClim dataset.
 
 - [Dowscaled CMIP](https://gdo-dcp.ucllnl.org/downscaled_cmip_projections/)
-This group downscales CMIP projects to a spatial scale suitable for ecology, and a daily temporal scale. While the prediction for any given day will be wrong, being able to use daily data allows for more accurate forecasts (ie. see that one paper which stresses using daily temperature data instead of averages)
+This group downscales CMIP projects to a spatial scale suitable for ecology, and a daily temporal scale. While the prediction for any given day will be wrong, being able to use daily data allows for more accurate forecasts (ie. see that one paper which stresses using daily temperature data instead of averages).
+
+## Historic Data
+### For USA / North America
+- [PRISM](http://www.prism.oregonstate.edu/). Also see the [PRISM R Package](https://github.com/ropensci/prism)
+- [DayMET](https://daymet.ornl.gov/).
+
+### Europe
+Unfortunately there is no easily available dataset such as PRISM or Daymet for Europe (that I know of). But see this StackExchange post which points to some [potential reanalysis data sources](https://gis.stackexchange.com/questions/82186/are-there-better-climate-data-than-worldclim-for-europe).
